@@ -39,7 +39,7 @@ Everything in the **Resume Revamp**, **PLUS**:
 - ✔ **Interview-Winning Results** – Clients report 2–3x more callbacks  
 - ✔ **Time-Saving** – No more guessing – a done-for-you advantage  
 
-> 🎯 **Limited Slots Available** – [Book a Free 10-Min Discovery Call](#)
+> 🎯 **Limited Slots Available** – [Book a Free 10-Min Discovery Call](https://calendly.com/sotirios-fotopoulos-xkkm/request-for-services)
 
 ---
 
@@ -66,7 +66,8 @@ A: Absolutely! I strategically reframe transferable skills to match new goals.
 ---
 
 ## 📞 Ready to Stand Out?
-📧 **Email**: [sotiris.fotopoulos@yahoo.com](mailto:sotiris.fotopoulos@yahoo.com)  
-🔗 **LinkedIn**: [Sotiris Fotopoulos](https://linkedin.com/in/sotirisfotopoulos)  
+- 📧 **Email**: [sotiris.fotopoulos@yahoo.com](mailto:sotiris.fotopoulos@yahoo.com)  
+- 🔗 **LinkedIn**: [Sotiris Fotopoulos](https://linkedin.com/in/sotirisfotopoulos)  
+- 📅 **Book a Discovery Call**: [https://calendly.com/sotirios-fotopoulos-xkkm/request-for-services](https://calendly.com/sotirios-fotopoulos-xkkm/request-for-services)
 
 ---
