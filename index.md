@@ -1,6 +1,6 @@
 # 💼 Career Growth Toolkit  
-### HR-Approved Resumes & LinkedIn Optimization  
-*By Sotiris Fotopoulos – Industry Specialist & Career Strategist*
+### Helping You Turn Experience Into Opportunity  
+*By Sotiris Fotopoulos – Resume & Career Branding Consultant*
 
 ---
 
@@ -35,7 +35,7 @@ Everything in the **Resume Revamp**, **PLUS**:
 ---
 
 ## 💡 Why Invest?
-- ✔ **HR Insider Knowledge** – I know what recruiters *actually* look for  
+- ✔ **HR-Aligned Insight** – I understand what recruiters actually look for  
 - ✔ **Interview-Winning Results** – Clients report 2–3x more callbacks  
 - ✔ **Time-Saving** – No more guessing – a done-for-you advantage  
 
