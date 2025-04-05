@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script src="https://cmp.osano.com/q2764AyhhN/4e80b84c-1cbb-421a-81ea-c49021868285/osano.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Resume & Career Branding services by Sotiris Fotopoulos to help you land your dream job with an impactful resume.">
