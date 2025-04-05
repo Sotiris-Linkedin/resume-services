@@ -106,19 +106,5 @@
   <hr>
 
   <p align="center"><i>Let your story sell your strength. I’ll help you shape it.</i></p>
-
-  <!-- Cookie Consent -->
-  <script type="text/javascript" src="https://cdn.cookielaw.org/consent/2/uk/consent.js"></script>
-  <script type="text/javascript">
-    window.addEventListener("load", function() {
-      CookieConsent.init({
-        "notice_banner_type": "simple",
-        "consent_type": "explicit",
-        "privacy_policy_link": "https://cmp.osano.com/q2764AyhhN/4e80b84c-1cbb-421a-81ea-c49021868285/osano.js", // Make sure to update
-        "location": "bottom",
-        "cookie_expiration_days": 30
-      });
-    });
-  </script>
 </body>
 </html>
