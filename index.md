@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <script src="https://cmp.osano.com/q2764AyhhN/4e80b84c-1cbb-421a-81ea-c49021868285/osano.js"></script>
