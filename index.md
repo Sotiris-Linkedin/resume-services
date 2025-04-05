@@ -1,3 +1,12 @@
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JCDKK74QZV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JCDKK74QZV');
+</script>
 <h1 align="center" style="color:#2e86de;">💼 Career Growth Toolkit</h1>
 <h3 align="center" style="color:#34495e;">Helping You Turn Experience Into Opportunity</h3>
 <p align="center"><b>By Sotiris Fotopoulos – Resume & Career Branding Consultant</b></p>
