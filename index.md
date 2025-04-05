@@ -99,5 +99,6 @@
   <hr>
 
   <p align="center"><i>Let your story sell your strength. I’ll help you shape it.</i></p>
+<script src="https://cmp.osano.com/q2764AyhhN/4e80b84c-1cbb-421a-81ea-c49021868285/osano.js"></script>
 </body>
 </html>
