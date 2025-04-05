@@ -1,6 +1,6 @@
 # Career Growth Toolkit  
 ### HR-Approved Resumes & LinkedIn Optimization  
-*By Sotiris Fotopoulos – HR Specialist & Career Strategist*  
+*By Sotiris Fotopoulos – Industry Specialist & Career Strategist*  
 
 ---
 
