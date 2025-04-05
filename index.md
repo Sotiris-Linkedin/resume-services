@@ -3,7 +3,7 @@
 <p align="center"><b>By Sotiris Fotopoulos – Resume & Career Branding Consultant</b></p>
 
 <p align="center">
-  <img src="A06987C8-D621-4879-AFB9-594AB5384886.jpeg" alt="Career Branding Visual" width="600" />
+  <img src="Image_0268.jpeg" alt="Career Branding Visual" width="600" />
 </p>
 
 ---
