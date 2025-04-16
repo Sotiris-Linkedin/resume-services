@@ -6,24 +6,21 @@
   <meta name="description" content="Resume & Career Branding services by Sotiris Fotopoulos to help you land your dream job with an impactful resume.">
   <meta property="og:title" content="Career Growth Toolkit - Resume Services">
   <meta property="og:description" content="Helping you turn experience into opportunity with expert resume services.">
-  <meta property="og:image" content="IMG_0268.jpeg"> <!-- Optional: Add image URL for social media preview -->
+  <meta property="og:image" content="IMG_0268.jpeg">
   <meta property="og:url" content="https://sotiris-linkedin.github.io/resume-services/">
   <meta name="twitter:card" content="summary_large_image">
   <title>Career Growth Toolkit</title>
   <style>
     h1 { color: #2e86de; text-align: center; }
-    h3 { color: #34495e; text-align: center; }
+    h3, h2 { color: #34495e; text-align: center; }
     p { text-align: center; }
+    ul { max-width: 700px; margin: 0 auto; padding-left: 20px; }
+    hr { margin: 30px 0; }
+    a { color: #2e86de; text-decoration: none; }
+    a:hover { text-decoration: underline; }
   </style>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-JCDKK74QZV"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-JCDKK74QZV');
-</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JCDKK74QZV"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -42,6 +39,7 @@
   <hr>
 
   <h2>🚀 Services & Pricing</h2>
+
   <h3>✅ 1. Resume Revamp — <span style="color:#27ae60;">$95</span> <sub><i>(Best-Seller!)</i></sub></h3>
   <ul>
     <li><b>ATS-Optimized Redesign</b> – Pass automated screens & impress recruiters</li>
@@ -111,6 +109,41 @@
 
   <hr>
 
+  <h2>✨ Additional Services on LinkedIn</h2>
+  <p>Explore categories based on your professional needs:</p>
+  <ul>
+    <li><a href="#career-services">Career Branding & Job Search</a></li>
+    <li><a href="#data-services">Power BI & Analytics</a></li>
+    <li><a href="#writing-services">Writing & Thought Leadership</a></li>
+  </ul>
+
+  <hr>
+
+  <h3 id="career-services">💼 Career Branding & Job Search</h3>
+  <ul>
+    <li><b>Resume Revamp</b> – ATS-ready, achievement-focused format</li>
+    <li><b>Executive Premium Package</b> – Cover letter, LinkedIn overhaul, strategy session</li>
+    <li><b>LinkedIn Standout Upgrade</b> – Personal brand polish & keyword strategy</li>
+  </ul>
+
+  <h3 id="data-services">📊 Power BI & Analytics Services</h3>
+  <ul>
+    <li><b>Dashboard Design</b> – Custom visualizations aligned with KPIs</li>
+    <li><b>Analytics Strategy</b> – Identify metrics that matter across functions</li>
+    <li><b>Scenario Planning</b> – Use Power BI to model resource capacity & cost</li>
+  </ul>
+  <p><i>Ideal for teams needing clarity on work demand, project delivery, or budgeting.</i></p>
+
+  <h3 id="writing-services">✍️ Writing & Thought Leadership</h3>
+  <ul>
+    <li><b>Ghostwriting</b> – LinkedIn posts that reflect your voice & expertise</li>
+    <li><b>Internal Reports</b> – Technical documentation made accessible</li>
+    <li><b>Content Strategy</b> – Organize messaging across channels for consistency</li>
+  </ul>
+  <p><i>Great for managers, founders, or engineers looking to build influence without the time crunch.</i></p>
+
+  <hr>
+
   <p align="center"><i>Let your story sell your strength. I’ll help you shape it.</i></p>
 
   <!-- Cookie Consent -->
@@ -120,7 +153,7 @@
       CookieConsent.init({
         "notice_banner_type": "simple",
         "consent_type": "explicit",
-        "privacy_policy_link": "https://cmp.osano.com/q2764AyhhN/4e80b84c-1cbb-421a-81ea-c49021868285/osano.js", // Make sure to update
+        "privacy_policy_link": "https://cmp.osano.com/q2764AyhhN/4e80b84c-1cbb-421a-81ea-c49021868285/osano.js",
         "location": "bottom",
         "cookie_expiration_days": 30
       });
