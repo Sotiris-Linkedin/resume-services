@@ -1,28 +1,31 @@
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Impact-Driven Branding, Dashboards & Writing Services</title>
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap" rel="stylesheet">
 
   <!-- OG Metadata -->
-  <meta name="description" content="Professional services by Lydia – LinkedIn branding, resume upgrades, Power BI dashboards, internal documentation & writing.">
-  <meta property="og:title" content="Lydia's Branding & Analytics Services">
+  <meta name="description" content="Professional services by Sotiris – LinkedIn branding, resume upgrades, Power BI dashboards, internal documentation & writing.">
+  <meta property="og:title" content="Sotiris' Branding & Analytics Services">
   <meta property="og:description" content="Data, storytelling, and career strategy – done for you.">
   <meta property="og:image" content="IMG_0268.jpeg">
   <meta property="og:url" content="https://sotiris-linkedin.github.io/resume-services/">
   <meta name="twitter:card" content="summary_large_image">
 
-  <!-- Sticky Navigation Styling -->
+  <!-- Styles -->
   <style>
     body {
       font-family: 'Titillium Web', sans-serif;
       margin: 0;
       padding: 0;
       line-height: 1.6;
+      font-size: 16px;
+      color: #333;
     }
+
     nav {
       background: #2e86de;
       color: white;
@@ -32,49 +35,84 @@
       z-index: 1000;
       text-align: center;
     }
+
     nav a {
       color: white;
-      margin: 0 15px;
+      margin: 0 10px;
       text-decoration: none;
       font-weight: 600;
+      font-size: 15px;
     }
+
     .container {
       padding: 20px;
-      max-width: 900px;
+      max-width: 960px;
       margin: auto;
     }
-    h1, h2, h3 {
-      text-align: center;
+
+    h1, h2, h3, h4 {
       color: #2e86de;
+      text-align: center;
     }
-    h2 {
-      margin-top: 50px;
+
+    h1 {
+      font-size: 26px;
+      margin-bottom: 10px;
     }
+
     ul {
       padding-left: 20px;
     }
+
     .button {
       display: block;
       margin: 20px auto;
-      width: fit-content;
-      padding: 10px 20px;
+      padding: 12px 24px;
       background-color: #27ae60;
       color: white;
       font-weight: 600;
       text-decoration: none;
       border-radius: 4px;
+      text-align: center;
+      width: fit-content;
     }
+
     .button:hover {
       background-color: #1e8449;
     }
+
+    img {
+      display: block;
+      margin: 20px auto;
+      max-width: 100%;
+      height: auto;
+      border-radius: 6px;
+    }
+
     hr {
       border: none;
       height: 1px;
       background-color: #ccc;
       margin: 40px 0;
     }
+
     p {
       text-align: center;
+    }
+
+    @media screen and (max-width: 768px) {
+      nav {
+        font-size: 14px;
+      }
+
+      h1 {
+        font-size: 22px;
+      }
+
+      .button {
+        width: 90%;
+        font-size: 16px;
+      }
     }
   </style>
 </head>
@@ -82,15 +120,15 @@
 
   <nav>
     <a href="#services">What I Offer</a>
-    <a href="#pricing">Packages & Pricing</a>
-    <a href="#testimonials">What Clients Say</a>
+    <a href="#pricing">Packages</a>
+    <a href="#testimonials">Testimonials</a>
     <a href="#contact">Get Started</a>
   </nav>
 
   <div class="container">
     <h1>Impact-Driven Branding, Dashboards & Writing Services</h1>
-    <p><b>By Lydia – Power BI Analyst, Technical Writer & LinkedIn Consultant</b></p>
-    <p><img src="IMG_0268.jpeg" alt="Branding Visual" width="600"></p>
+    <p><strong>By Sotiris – Power BI Analyst, Technical Writer & LinkedIn Consultant</strong></p>
+    <img src="IMG_0268.jpeg" alt="Sotiris Photo">
 
     <a href="https://calendly.com/sotirios-fotopoulos-xkkm/request-for-services" target="_blank" class="button">Book a Free Discovery Call</a>
 
@@ -154,12 +192,10 @@
     <h3>Analytics & Writing Services</h3>
 
     <ul>
-      <li><b>Power BI Dashboard (custom project):</b> Starting at <span style="color:#2e86de;">$120</span></li>
-      <li><b>Technical Documentation / Internal Writing:</b> Starting at <span style="color:#2e86de;">$60</span> per piece</li>
-      <li><b>LinkedIn Ghostwriting:</b> Packages from <span style="color:#2e86de;">$45</span>/post or <span style="color:#2e86de;">$160</span>/month</li>
+      <li><strong>Power BI Dashboard (custom project):</strong> Starting at <span style="color:#2e86de;">$120</span></li>
+      <li><strong>Technical Documentation / Internal Writing:</strong> Starting at <span style="color:#2e86de;">$60</span> per piece</li>
+      <li><strong>LinkedIn Ghostwriting:</strong> Packages from <span style="color:#2e86de;">$45</span>/post or <span style="color:#2e86de;">$160</span>/month</li>
     </ul>
-
-    <p>Need a custom bundle? Let’s chat in a free call.</p>
 
     <a href="https://calendly.com/sotirios-fotopoulos-xkkm/request-for-services" target="_blank" class="button">Get Started</a>
 
@@ -167,20 +203,19 @@
 
     <h2 id="testimonials">What Clients Say</h2>
 
-    <p><i>“Lydia didn’t just fix my resume – she helped me land interviews in roles I thought were out of reach.”</i></p>
-    <p><i>“Her Power BI dashboard saved us hours of reporting time and helped us get budget approvals faster.”</i></p>
-    <p><i>“Our engineering team finally has clean, understandable documentation. She made it painless.”</i></p>
-    <p><i>“I’ve doubled my LinkedIn engagement since she started ghostwriting my posts.”</i></p>
+    <p><i>“Sotiris didn’t just fix my resume – he helped me land interviews in roles I thought were out of reach.”</i></p>
+    <p><i>“His Power BI dashboard saved us hours of reporting time and helped us get budget approvals faster.”</i></p>
+    <p><i>“Our engineering team finally has clean, understandable documentation. He made it painless.”</i></p>
+    <p><i>“I’ve doubled my LinkedIn engagement since he started ghostwriting my posts.”</i></p>
 
     <hr>
 
     <h2 id="contact">Let’s Work Together</h2>
-    <p><b>Email:</b> lydia.analytics@gmail.com</p>
-    <p><b>LinkedIn:</b> <a href="https://www.linkedin.com/in/sotiris-fotopoulos/">Sotiris Fotopoulos</a></p>
-    <p><b>Discovery Call:</b> <a href="https://calendly.com/sotirios-fotopoulos-xkkm/request-for-services" target="_blank">Book Now</a></p>
+    <p><strong>Email:</strong> sotiris.analytics@gmail.com</p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sotiris-fotopoulos/">Sotiris Fotopoulos</a></p>
+    <p><strong>Discovery Call:</strong> <a href="https://calendly.com/sotirios-fotopoulos-xkkm/request-for-services" target="_blank">Book Now</a></p>
 
     <hr>
-
     <p align="center"><i>Your story has value. Let’s make it stand out.</i></p>
   </div>
 </body>
