@@ -1,15 +1,21 @@
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Resume, LinkedIn, Power BI & Writing Services by Sotiris Fotopoulos to boost your career brand and impact." />
-  <meta property="og:title" content="Career Growth Toolkit - Resume & Branding Services" />
-  <meta property="og:description" content="Turn experience into opportunity with impactful resumes, dashboards & writing." />
-  <meta property="og:image" content="IMG_0268.jpeg" />
-  <meta property="og:url" content="https://sotiris-linkedin.github.io/resume-services/" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <title>Career Growth Toolkit</title>
-  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Impact-Driven Branding, Dashboards & Writing Services</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- OG Metadata -->
+  <meta name="description" content="Professional services by Lydia – LinkedIn branding, resume upgrades, Power BI dashboards, internal documentation & writing.">
+  <meta property="og:title" content="Lydia's Branding & Analytics Services">
+  <meta property="og:description" content="Data, storytelling, and career strategy – done for you.">
+  <meta property="og:image" content="IMG_0268.jpeg">
+  <meta property="og:url" content="https://sotiris-linkedin.github.io/resume-services/">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Sticky Navigation Styling -->
   <style>
     body {
       font-family: 'Titillium Web', sans-serif;
@@ -17,153 +23,165 @@
       padding: 0;
       line-height: 1.6;
     }
-    .navbar {
+    nav {
+      background: #2e86de;
+      color: white;
+      padding: 10px 0;
       position: sticky;
       top: 0;
-      background-color: white;
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      padding: 12px 0;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-      z-index: 999;
+      z-index: 1000;
+      text-align: center;
     }
-    .navbar a {
+    nav a {
+      color: white;
+      margin: 0 15px;
       text-decoration: none;
-      color: #2e86de;
       font-weight: 600;
-      padding: 6px 12px;
     }
-    .navbar a:hover {
-      background-color: #eaf2ff;
-      border-radius: 4px;
-    }
-    .cta-button {
-      background-color: #2e86de;
-      color: white !important;
-      border-radius: 4px;
-      padding: 6px 14px;
-      font-weight: 700;
+    .container {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
     }
     h1, h2, h3 {
       text-align: center;
       color: #2e86de;
     }
-    p, ul, li {
-      margin: 0 auto 1em;
-      max-width: 800px;
-      text-align: left;
+    h2 {
+      margin-top: 50px;
     }
-    ul { padding-left: 20px; }
+    ul {
+      padding-left: 20px;
+    }
+    .button {
+      display: block;
+      margin: 20px auto;
+      width: fit-content;
+      padding: 10px 20px;
+      background-color: #27ae60;
+      color: white;
+      font-weight: 600;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+    .button:hover {
+      background-color: #1e8449;
+    }
     hr {
       border: none;
-      border-top: 1px solid #ddd;
-      margin: 2em 0;
+      height: 1px;
+      background-color: #ccc;
+      margin: 40px 0;
     }
-    .center { text-align: center; }
-    .price { color: #27ae60; font-weight: bold; }
-    .premium { color: #c0392b; font-weight: bold; }
-    .addon { color: #f39c12; font-weight: bold; }
-    img { display: block; margin: 0 auto 20px; max-width: 90%; }
+    p {
+      text-align: center;
+    }
   </style>
 </head>
 <body>
 
-  <div class="navbar">
-    <a href="#services">Services</a>
-    <a href="#pricing">Pricing</a>
-    <a href="#testimonials">Testimonials</a>
-    <a href="https://calendly.com/sotirios-fotopoulos-xkkm/request-for-services" class="cta-button" target="_blank">Get Started</a>
+  <nav>
+    <a href="#services">What I Offer</a>
+    <a href="#pricing">Packages & Pricing</a>
+    <a href="#testimonials">What Clients Say</a>
+    <a href="#contact">Get Started</a>
+  </nav>
+
+  <div class="container">
+    <h1>Impact-Driven Branding, Dashboards & Writing Services</h1>
+    <p><b>By Lydia – Power BI Analyst, Technical Writer & LinkedIn Consultant</b></p>
+    <p><img src="IMG_0268.jpeg" alt="Branding Visual" width="600"></p>
+
+    <a href="https://calendly.com/sotirios-fotopoulos-xkkm/request-for-services" target="_blank" class="button">Book a Free Discovery Call</a>
+
+    <hr>
+
+    <h2 id="services">What I Offer</h2>
+
+    <h3>1. Resume & LinkedIn Branding</h3>
+    <ul>
+      <li>CV revamp and ATS optimization</li>
+      <li>LinkedIn headline + about section rewrite</li>
+      <li>Keyword & SEO optimization for recruiter visibility</li>
+      <li>Cover letters tailored to your industry</li>
+    </ul>
+
+    <h3>2. Power BI Dashboards & Analytics</h3>
+    <ul>
+      <li>Custom Power BI dashboards (FTEs, budgets, project KPIs)</li>
+      <li>Data model optimization</li>
+      <li>Scenario simulations for presentations</li>
+      <li>Visual storytelling with DAX formulas</li>
+    </ul>
+
+    <h3>3. Internal Documentation & Reporting</h3>
+    <ul>
+      <li>Technical documentation and reports</li>
+      <li>Process write-ups and onboarding guides</li>
+      <li>SharePoint content for internal knowledge hubs</li>
+    </ul>
+
+    <h3>4. Thought Leadership & Content Writing</h3>
+    <ul>
+      <li>LinkedIn ghostwriting (posts, articles)</li>
+      <li>Content calendars and audience targeting</li>
+      <li>Copywriting for internal presentations</li>
+    </ul>
+
+    <hr>
+
+    <h2 id="pricing">Packages & Pricing</h2>
+
+    <h3>Resume & Branding Packages</h3>
+
+    <h4>Resume Revamp – <span style="color:#27ae60;">$95</span></h4>
+    <ul>
+      <li>ATS optimization, achievement-based content</li>
+      <li>1 round of edits + 15-min strategy call</li>
+    </ul>
+
+    <h4>Executive Premium Package – <span style="color:#c0392b;">$195</span></h4>
+    <ul>
+      <li>Resume revamp + cover letter</li>
+      <li>LinkedIn overhaul + 45-min strategy session</li>
+    </ul>
+
+    <h4>LinkedIn Standout Upgrade – <span style="color:#f39c12;">$75</span></h4>
+    <ul>
+      <li>Headline, About section + visibility boost</li>
+    </ul>
+
+    <h3>Analytics & Writing Services</h3>
+
+    <ul>
+      <li><b>Power BI Dashboard (custom project):</b> Starting at <span style="color:#2e86de;">$120</span></li>
+      <li><b>Technical Documentation / Internal Writing:</b> Starting at <span style="color:#2e86de;">$60</span> per piece</li>
+      <li><b>LinkedIn Ghostwriting:</b> Packages from <span style="color:#2e86de;">$45</span>/post or <span style="color:#2e86de;">$160</span>/month</li>
+    </ul>
+
+    <p>Need a custom bundle? Let’s chat in a free call.</p>
+
+    <a href="https://calendly.com/sotirios-fotopoulos-xkkm/request-for-services" target="_blank" class="button">Get Started</a>
+
+    <hr>
+
+    <h2 id="testimonials">What Clients Say</h2>
+
+    <p><i>“Lydia didn’t just fix my resume – she helped me land interviews in roles I thought were out of reach.”</i></p>
+    <p><i>“Her Power BI dashboard saved us hours of reporting time and helped us get budget approvals faster.”</i></p>
+    <p><i>“Our engineering team finally has clean, understandable documentation. She made it painless.”</i></p>
+    <p><i>“I’ve doubled my LinkedIn engagement since she started ghostwriting my posts.”</i></p>
+
+    <hr>
+
+    <h2 id="contact">Let’s Work Together</h2>
+    <p><b>Email:</b> lydia.analytics@gmail.com</p>
+    <p><b>LinkedIn:</b> <a href="https://www.linkedin.com/in/sotiris-fotopoulos/">Sotiris Fotopoulos</a></p>
+    <p><b>Discovery Call:</b> <a href="https://calendly.com/sotirios-fotopoulos-xkkm/request-for-services" target="_blank">Book Now</a></p>
+
+    <hr>
+
+    <p align="center"><i>Your story has value. Let’s make it stand out.</i></p>
   </div>
-
-  <h1>Career Growth Toolkit</h1>
-  <h3>Helping You Turn Experience Into Opportunity</h3>
-  <p class="center"><b>By Sotiris Fotopoulos – Resume, Power BI & Career Branding Consultant</b></p>
-  <img src="IMG_0268.jpeg" alt="Career Branding Visual" width="600" />
-
-  <hr>
-
-  <h2 id="services">Services Offered</h2>
-
-  <h3>1. Resume & LinkedIn Optimization</h3>
-  <ul>
-    <li>ATS-Optimized Resume Redesign</li>
-    <li>Achievement-Focused Rewrite</li>
-    <li>LinkedIn Profile Upgrade</li>
-    <li>Cover Letter Writing</li>
-    <li>Interview Strategy Support</li>
-  </ul>
-
-  <h3>2. Power BI Dashboards & Analytics</h3>
-  <ul>
-    <li>Interactive Dashboards (FTEs, budgets, KPIs, HR, finance)</li>
-    <li>Forecast vs. Actual Performance Models</li>
-    <li>Scenario Planning Features</li>
-    <li>Dashboard Setup + Documentation</li>
-  </ul>
-
-  <h3>3. Content Writing & LinkedIn Ghostwriting</h3>
-  <ul>
-    <li>LinkedIn Posts (Tech/Leadership/Industry)</li>
-    <li>Internal Reports & Knowledge Pages</li>
-    <li>Thought Leadership Strategy</li>
-    <li>eBooks, Landing Pages, CV Narratives</li>
-  </ul>
-
-  <hr>
-
-  <h2 id="pricing">Pricing & Packages</h2>
-
-  <h3>Resume Packages</h3>
-  <ul>
-    <li><b>Resume Revamp:</b> <span class="price">$95</span> <sub><i>(Intro Rate – Full value: $120)</i></sub></li>
-    <li><b>Executive Premium:</b> <span class="premium">$195</span> – Includes resume, LinkedIn, cover letter & strategy session</li>
-    <li><b>LinkedIn Standout Upgrade:</b> <span class="addon">$75</span> (Add-on or standalone)</li>
-  </ul>
-
-  <h3>Power BI Services</h3>
-  <ul>
-    <li><b>Custom Dashboard (1 page):</b> $150</li>
-    <li><b>Full Dashboard Suite:</b> from $400 (includes planning + documentation)</li>
-    <li><b>Power BI Coaching/Edits:</b> $60/hour</li>
-  </ul>
-
-  <h3>Writing & Ghostwriting</h3>
-  <ul>
-    <li><b>LinkedIn Ghostwriting (4 posts/month):</b> $180</li>
-    <li><b>Internal Reports & Knowledge Pages:</b> from $120</li>
-    <li><b>Strategy + Content Planning Call:</b> $45 (30 min)</li>
-  </ul>
-
-  <p class="center"><i>Payments via PayPal, Stripe, or bank transfer. 50% deposit to begin.</i></p>
-
-  <hr>
-
-  <h2 id="testimonials">Client Feedback</h2>
-
-  <p><b>“Sotiris transformed my CV from a list of tasks into a story of impact. I had 3 interviews within a week.”</b><br><i>– Elena M., Finance Professional</i></p>
-  <p><b>“The Power BI dashboard helped align our engineering and cost planning teams — top-notch design.”</b><br><i>– Mark T., PM Lead (R&D)</i></p>
-  <p><b>“I had no time to post on LinkedIn. Sotiris created posts that actually felt like me — and they got great reach.”</b><br><i>– Anna K., Tech Consultant</i></p>
-
-  <hr>
-
-  <h2>Frequently Asked Questions</h2>
-  <p><b>Q: Do you work with tech and finance professionals?</b><br>A: Yes! I specialize in tech, finance, healthcare, and executive roles.</p>
-  <p><b>Q: What if I need more edits?</b><br>A: Additional rounds are $40/hour (rarely needed!).</p>
-  <p><b>Q: Can you help with career changes?</b><br>A: Absolutely! I highlight transferable skills and reshape your positioning.</p>
-
-  <hr>
-
-  <h2 id="contact">Ready to Stand Out?</h2>
-  <p class="center">
-    📧 <b>Email:</b> <a href="mailto:sotiris.fotopoulos@yahoo.com">sotiris.fotopoulos@yahoo.com</a><br>
-    🔗 <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/sotiris-fotopoulos/" target="_blank">Sotiris Fotopoulos</a><br>
-    📅 <b>Book a Discovery Call:</b> <a href="https://calendly.com/sotirios-fotopoulos-xkkm/request-for-services" target="_blank">Calendly</a>
-  </p>
-
-  <hr>
-
-  <p class="center"><i>Let your story sell your strength. I’ll help you shape it.</i></p>
-
 </body>
 </html>
