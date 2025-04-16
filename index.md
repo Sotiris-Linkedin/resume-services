@@ -211,8 +211,8 @@
     <hr>
 
     <h2 id="contact">Let’s Work Together</h2>
-    <p><strong>Email:</strong> sotiris.analytics@gmail.com</p>
-    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sotiris-fotopoulos/">Sotiris Fotopoulos</a></p>
+    <p><strong>Email:</strong> <a href="mailto:sotiris.fotopoulos@yahoo.com">sotiris.fotopoulos@yahoo.com</a></p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sotirisfotopoulos?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">Sotiris Fotopoulos</a></p>
     <p><strong>Discovery Call:</strong> <a href="https://calendly.com/sotirios-fotopoulos-xkkm/request-for-services" target="_blank">Book Now</a></p>
 
     <hr>
