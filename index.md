@@ -1,222 +1,197 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Impact-Driven Branding, Dashboards & Writing Services</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Services by Sotiris Fotopoulos: LinkedIn, Power BI dashboards, resume optimization, and internal writing." />
+  <meta property="og:title" content="Professional Services by Sotiris Fotopoulos" />
+  <meta property="og:description" content="From dashboards to resumes to content strategy—boost your professional edge." />
+  <meta property="og:image" content="IMG_0268.jpeg" />
+  <meta property="og:url" content="https://sotiris-linkedin.github.io/resume-services/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <title>Sotiris Fotopoulos | Strategic Services</title>
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap" rel="stylesheet">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <!-- Osano Cookie Consent -->
+  <script src="https://cmp.osano.com/q2764AyhhN/4e80b84c-1cbb-421a-81ea-c49021868285/osano.js"></script>
 
-  <!-- OG Metadata -->
-  <meta name="description" content="Professional services by Sotiris – LinkedIn branding, resume upgrades, Power BI dashboards, internal documentation & writing.">
-  <meta property="og:title" content="Sotiris' Branding & Analytics Services">
-  <meta property="og:description" content="Data, storytelling, and career strategy – done for you.">
-  <meta property="og:image" content="IMG_0268.jpeg">
-  <meta property="og:url" content="https://sotiris-linkedin.github.io/resume-services/">
-  <meta name="twitter:card" content="summary_large_image">
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JCDKK74QZV"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-JCDKK74QZV');
+  </script>
 
-  <!-- Styles -->
   <style>
+    :root {
+      --primary: #2e86de;
+      --dark-bg: #1e1e1e;
+      --light-bg: #ffffff;
+      --text-dark: #f0f0f0;
+      --text-light: #1a1a1a;
+    }
+
     body {
       font-family: 'Titillium Web', sans-serif;
       margin: 0;
       padding: 0;
+      background-color: var(--light-bg);
+      color: var(--text-light);
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .dark-mode {
+      background-color: var(--dark-bg);
+      color: var(--text-dark);
+    }
+
+    h1, h2, h3 {
+      text-align: center;
+      color: var(--primary);
+    }
+
+    p, li {
+      text-align: center;
       line-height: 1.6;
-      font-size: 16px;
-      color: #333;
+      margin: 0.5em 0;
     }
 
-    nav {
-      background: #2e86de;
-      color: white;
-      padding: 10px 0;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-      text-align: center;
-    }
-
-    nav a {
-      color: white;
-      margin: 0 10px;
-      text-decoration: none;
-      font-weight: 600;
-      font-size: 15px;
-    }
-
-    .container {
-      padding: 20px;
-      max-width: 960px;
-      margin: auto;
-    }
-
-    h1, h2, h3, h4 {
-      color: #2e86de;
-      text-align: center;
-    }
-
-    h1 {
-      font-size: 26px;
-      margin-bottom: 10px;
-    }
-
-    ul {
-      padding-left: 20px;
-    }
-
-    .button {
-      display: block;
-      margin: 20px auto;
-      padding: 12px 24px;
-      background-color: #27ae60;
-      color: white;
-      font-weight: 600;
-      text-decoration: none;
-      border-radius: 4px;
-      text-align: center;
-      width: fit-content;
-    }
-
-    .button:hover {
-      background-color: #1e8449;
+    ul, ol {
+      list-style-position: inside;
+      padding-left: 0;
     }
 
     img {
       display: block;
-      margin: 20px auto;
-      max-width: 100%;
+      margin: 1em auto;
+      max-width: 90%;
       height: auto;
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      background: var(--light-bg);
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000;
+      border-bottom: 1px solid #ccc;
+    }
+
+    nav.dark-mode {
+      background-color: var(--dark-bg);
+    }
+
+    .toggle-dark {
+      cursor: pointer;
+      padding: 6px 12px;
+      border: 1px solid #ccc;
       border-radius: 6px;
+      background: none;
+      font-size: 14px;
     }
 
-    hr {
+    .main-button {
+      background-color: #27ae60;
+      color: white;
+      font-weight: bold;
+      padding: 10px 18px;
       border: none;
-      height: 1px;
-      background-color: #ccc;
-      margin: 40px 0;
+      border-radius: 6px;
+      font-size: 16px;
+      text-decoration: none;
+      margin: 1em auto;
+      display: block;
+      width: fit-content;
     }
 
-    p {
-      text-align: center;
-    }
-
-    @media screen and (max-width: 768px) {
-      nav {
-        font-size: 14px;
-      }
-
-      h1 {
-        font-size: 22px;
-      }
-
-      .button {
-        width: 90%;
-        font-size: 16px;
+    @media (max-width: 768px) {
+      h1, h2, h3, p {
+        padding: 0 10px;
       }
     }
   </style>
 </head>
 <body>
-
   <nav>
-    <a href="#services">What I Offer</a>
-    <a href="#pricing">Packages</a>
-    <a href="#testimonials">Testimonials</a>
-    <a href="#contact">Get Started</a>
+    <div><strong>Sotiris Fotopoulos</strong></div>
+    <button class="toggle-dark" onclick="document.body.classList.toggle('dark-mode'); document.querySelector('nav').classList.toggle('dark-mode');">Toggle Dark Mode</button>
   </nav>
 
-  <div class="container">
-    <h1>Impact-Driven Branding, Dashboards & Writing Services</h1>
-    <p><strong>By Sotiris – Power BI Analyst, Technical Writer & LinkedIn Consultant</strong></p>
-    <img src="IMG_0268.jpeg" alt="Sotiris Photo">
+  <h1>Professional Services by Sotiris Fotopoulos</h1>
 
-    <a href="https://calendly.com/sotirios-fotopoulos-xkkm/request-for-services" target="_blank" class="button">Book a Free Discovery Call</a>
+  <a class="main-button" href="https://calendly.com/sotirios-fotopoulos-xkkm/request-for-services" target="_blank">Book a Free Discovery Call</a>
 
-    <hr>
+  <hr>
 
-    <h2 id="services">What I Offer</h2>
+  <h2>Services Offered</h2>
 
-    <h3>1. Resume & LinkedIn Branding</h3>
-    <ul>
-      <li>CV revamp and ATS optimization</li>
-      <li>LinkedIn headline + about section rewrite</li>
-      <li>Keyword & SEO optimization for recruiter visibility</li>
-      <li>Cover letters tailored to your industry</li>
-    </ul>
+  <h3>1. Resume Upgrade & Career Branding</h3>
+  <ul>
+    <li>ATS Optimization & Redesign</li>
+    <li>Impact-Driven Rewrite</li>
+    <li>Cover Letter Writing</li>
+    <li>LinkedIn Profile Optimization</li>
+    <li>Pricing: $95–$195</li>
+  </ul>
 
-    <h3>2. Power BI Dashboards & Analytics</h3>
-    <ul>
-      <li>Custom Power BI dashboards (FTEs, budgets, project KPIs)</li>
-      <li>Data model optimization</li>
-      <li>Scenario simulations for presentations</li>
-      <li>Visual storytelling with DAX formulas</li>
-    </ul>
+  <h3>2. LinkedIn Content & Profile Strategy</h3>
+  <ul>
+    <li>LinkedIn Headline & About Section</li>
+    <li>Profile Overhaul + Keyword Optimization</li>
+    <li>Content Calendar (posts, comments, articles)</li>
+    <li>Pricing: $75 (standalone or add-on)</li>
+  </ul>
 
-    <h3>3. Internal Documentation & Reporting</h3>
-    <ul>
-      <li>Technical documentation and reports</li>
-      <li>Process write-ups and onboarding guides</li>
-      <li>SharePoint content for internal knowledge hubs</li>
-    </ul>
+  <h3>3. Power BI Dashboard Services</h3>
+  <ul>
+    <li>Custom Dashboards for Project Reporting</li>
+    <li>Resource Planning & KPI Visualization</li>
+    <li>Cross-departmental Storytelling with Data</li>
+    <li>Pricing: From $175/project</li>
+  </ul>
 
-    <h3>4. Thought Leadership & Content Writing</h3>
-    <ul>
-      <li>LinkedIn ghostwriting (posts, articles)</li>
-      <li>Content calendars and audience targeting</li>
-      <li>Copywriting for internal presentations</li>
-    </ul>
+  <h3>4. Internal & Technical Writing</h3>
+  <ul>
+    <li>Project Documentation & Reports</li>
+    <li>Stakeholder Communication Templates</li>
+    <li>Executive Summaries & Business Cases</li>
+    <li>Pricing: $65/hour or custom package</li>
+  </ul>
 
-    <hr>
+  <hr>
 
-    <h2 id="pricing">Packages & Pricing</h2>
+  <h2>Testimonials</h2>
+  <p>"Sotiris transformed my LinkedIn and resume. I had 3 interviews within 10 days!" – Tech Manager, Berlin</p>
+  <p>"His Power BI dashboard helped my team cut reporting time by 60%." – R&D Lead, Spain</p>
+  <p>"Highly professional writing style—he’s my go-to for executive reports." – Strategy Head, London</p>
 
-    <h3>Resume & Branding Packages</h3>
+  <hr>
 
-    <h4>Resume Revamp – <span style="color:#27ae60;">$95</span></h4>
-    <ul>
-      <li>ATS optimization, achievement-based content</li>
-      <li>1 round of edits + 15-min strategy call</li>
-    </ul>
+  <h2>Contact</h2>
+  <p><b>Email:</b> <a href="mailto:sotiris.fotopoulos@yahoo.com">sotiris.fotopoulos@yahoo.com</a></p>
+  <p><b>LinkedIn:</b> <a href="https://www.linkedin.com/in/sotirisfotopoulos" target="_blank">Sotiris Fotopoulos</a></p>
+  <p><b>Book a Call:</b> <a href="https://calendly.com/sotirios-fotopoulos-xkkm/request-for-services" target="_blank">Calendly Link</a></p>
 
-    <h4>Executive Premium Package – <span style="color:#c0392b;">$195</span></h4>
-    <ul>
-      <li>Resume revamp + cover letter</li>
-      <li>LinkedIn overhaul + 45-min strategy session</li>
-    </ul>
+  <hr>
 
-    <h4>LinkedIn Standout Upgrade – <span style="color:#f39c12;">$75</span></h4>
-    <ul>
-      <li>Headline, About section + visibility boost</li>
-    </ul>
+  <p style="text-align:center;"><i>Let your story sell your strength. I’ll help you shape it.</i></p>
 
-    <h3>Analytics & Writing Services</h3>
-
-    <ul>
-      <li><strong>Power BI Dashboard (custom project):</strong> Starting at <span style="color:#2e86de;">$120</span></li>
-      <li><strong>Technical Documentation / Internal Writing:</strong> Starting at <span style="color:#2e86de;">$60</span> per piece</li>
-      <li><strong>LinkedIn Ghostwriting:</strong> Packages from <span style="color:#2e86de;">$45</span>/post or <span style="color:#2e86de;">$160</span>/month</li>
-    </ul>
-
-    <a href="https://calendly.com/sotirios-fotopoulos-xkkm/request-for-services" target="_blank" class="button">Get Started</a>
-
-    <hr>
-
-    <h2 id="testimonials">What Clients Say</h2>
-
-    <p><i>“Sotiris didn’t just fix my resume – he helped me land interviews in roles I thought were out of reach.”</i></p>
-    <p><i>“His Power BI dashboard saved us hours of reporting time and helped us get budget approvals faster.”</i></p>
-    <p><i>“Our engineering team finally has clean, understandable documentation. He made it painless.”</i></p>
-    <p><i>“I’ve doubled my LinkedIn engagement since he started ghostwriting my posts.”</i></p>
-
-    <hr>
-
-    <h2 id="contact">Let’s Work Together</h2>
-    <p><strong>Email:</strong> <a href="mailto:sotiris.fotopoulos@yahoo.com">sotiris.fotopoulos@yahoo.com</a></p>
-    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sotirisfotopoulos?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">Sotiris Fotopoulos</a></p>
-    <p><strong>Discovery Call:</strong> <a href="https://calendly.com/sotirios-fotopoulos-xkkm/request-for-services" target="_blank">Book Now</a></p>
-
-    <hr>
-    <p align="center"><i>Your story has value. Let’s make it stand out.</i></p>
-  </div>
+  <!-- Osano Cookie Consent -->
+  <script type="text/javascript" src="https://cdn.cookielaw.org/consent/2/uk/consent.js"></script>
+  <script type="text/javascript">
+    window.addEventListener("load", function() {
+      CookieConsent.init({
+        "notice_banner_type": "simple",
+        "consent_type": "explicit",
+        "privacy_policy_link": "https://cmp.osano.com/q2764AyhhN/4e80b84c-1cbb-421a-81ea-c49021868285/osano.js",
+        "location": "bottom",
+        "cookie_expiration_days": 30
+      });
+    });
+  </script>
 </body>
 </html>
