@@ -91,6 +91,11 @@
         font-size: 1.4rem;
       }
     }
+    
+    /* Hide GitHub auto-injected headers or breadcrumbs */
+  header, .site-header, .page-header, .header, .breadcrumb, .gh-header {
+  display: none !important;
+    }
   </style>
 
   <!-- Google Analytics -->
